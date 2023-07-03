@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    padding: 25px;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    &:hover {
+        background-color: #f3f3f3;
+        color: darkorange;
+    }
+    .image-container {
+        display: flex;
+        column-gap: 10px;
+        .image {
+            width: 80px;
+            height: 80px;
+        }
+    }
+    p {
+        text-decoration: underline;
+        background-color: inherit
+    }
+}
