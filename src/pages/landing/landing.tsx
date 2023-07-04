@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-import { apartment, house, villa } from "assets/icons";
+import { apartment, house, plusIcon, villa } from "assets/icons";
 import { Card } from "components/cards/cards";
 import { Header } from "components/header/header";
 import { Sidebar } from "components/sidebar/sidebar";
@@ -27,7 +27,7 @@ export const Landing = () => {
             />
             <Card
               className={clsx(styles.card)}
-              images={apartment}
+              images={plusIcon}
               description="From Scratch"
             />
           </div>
